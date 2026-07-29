@@ -1,0 +1,9 @@
+import control_observation_systems_governed_functional_theorem_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace control_observation_systems_governed_functional_theorem_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end control_observation_systems_governed_functional_theorem_canonical_lane_mathlib
+end HautevilleHouse
